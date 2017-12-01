@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    height: 25%
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+}
+
+h1, h2 {
+  display: inline;
+  background-color: #800000;
+
+}
+
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   div.gallery {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   div.gallery {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   div.gallery {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 2560px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div>
+<center><h1>Wildlife Gallary</h1><br>
+<h2>(these are some of my favorite photos)</h2><center>
+</div>
+<br>
+<hr>
+<br>
+<div class="gallery">
+  <a target="_blank" href="http://www.post-gazette.com/image/2016/11/18/1140x_q90_a10-7_cTC_ca7,0,2512,1670/deer-12.jpg">
+    <img src="http://www.post-gazette.com/image/2016/11/18/1140x_q90_a10-7_cTC_ca7,0,2512,1670/deer-12.jpg" alt="Male Deer" width="300" height="200">
+  </a
+  <div class="desc">This is a male deer.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Brazilian_amazon_rainforest.jpg/1200px-Brazilian_amazon_rainforest.jpg">
+    <img src="http://cdn2-www.craveonline.com/assets/uploads/2017/10/badger2.jpg" alt="Badger" width="300" height="200">
+  </a>
+  <div class="desc">Badger</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://bento.cdn.pbs.org/hostedbento-prod/gallery/20170112_203058_66844904_aurora.jpg.1280x720_q85.jpg">
+    <img src="https://thumbs.dreamstime.com/t/hare-wild-clearing-50077863.jpg" alt="Rabit" width="300" height="200">
+  </a>
+  <div class="desc">Wild Hare (Rabit)</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://www.telegraph.co.uk/content/dam/Travel/galleries/travel/activityandadventure/The-worlds-most-beautiful-mountains/mountains-Kirkjufe_3374110a.jpg">
+    <img src="http://www.fresnobee.com/living/hcj8vn-bullmoose2.jpg/alternates/LANDSCAPE_768/bullmoose2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Moose (Canadian Animal or North America Animal)</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/f/fa/Black_squirrel_near_Michigan_State_University.jpg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Black_squirrel_near_Michigan_State_University.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Black Squirrel (Northern U.S.A and Southern Canada)</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://hoffmanexterminating.com/wp-content/uploads/2017/07/bats.jpg">
+    <img src="http://hoffmanexterminating.com/wp-content/uploads/2017/07/bats.jpg" alt="Bat" width="300" height="200">
+  </a>
+  <div class="desc">Bat</div>
+</div>
+
+</body>
+</html>
